@@ -1,0 +1,140 @@
+.main_content{
+    position: absolute;
+    left: 4vw;
+    top: 20vh;
+    width: 92vw;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_content_title{
+    margin: 0px;
+    width: 92vw;
+    margin-top: 20vw;
+    margin-bottom: 40vw;
+    text-align: center;
+    font-size: 8vw;
+    
+}
+.sub_content{
+    width:92vw;
+    padding: 5vw;
+    padding-bottom: 10vw;
+    box-sizing: border-box;
+    background-color: rgb(240, 251, 255);
+    border-radius: 2vw;
+    margin-bottom: 5vh;
+}
+.sub_content_title{
+    font-size: 8vw;
+    text-align: center;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+}
+.sub_content_content{
+    display: block;
+}
+
+.style2_fix{
+    z-index: 2;
+    background-color: white;
+}
+
+.bottom_blank{
+    height: 7vh;
+}
+
+.img_class{
+    width: 82vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.map_iframe{
+    width:82vw; 
+    height:82vw; 
+    margin:0px; 
+    padding:0px; 
+    border:0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/******************  landscape mode ************************/
+
+@media only screen and (orientation: landscape){
+
+    .main_content{
+        position: absolute;
+        left: 4vw;
+        top: 20vh;
+        width: 92vw;
+        padding: 0px;
+        padding-bottom: 15vh;
+        box-sizing: border-box;
+    }
+    .main_content_title{
+        margin: 0px;
+        width: 92vw;
+        margin-top: 15vh;
+        margin-bottom: 30vh;
+        text-align: center;
+        font-size: 8vh;
+        
+    }
+    .sub_content{
+        width:88vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vw;
+        padding-bottom: 8vw;
+        box-sizing: border-box;
+        background-color: rgb(240, 251, 255);
+        /* box-shadow: 0px 0px 3vh gainsboro; */
+        border: 0.1vh solid rgb(240, 251, 255);
+        border-radius: 2vw;
+        margin: 2vh;
+        float: left;
+    }
+    .sub_content_title{
+        font-size: 5vh;
+        text-align: center;
+        margin-bottom: 6vw;
+        margin-top: 1vw;
+    }
+    .sub_content_content{
+        font-size: 3vh;
+        line-height: 6vh;
+        display: block;
+    }
+    
+    .style2_fix{
+        z-index: 2;
+        background-color: white;
+    }
+    
+    .bottom_blank{
+        height: 7vh;
+    }
+
+    .img_class{
+        width: 40vw;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .map_iframe{
+        width:78vw; 
+        height:78vh; 
+        margin:0px; 
+        padding:0px; 
+        border:0.1vh solid gray;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+}

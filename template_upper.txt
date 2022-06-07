@@ -1,0 +1,102 @@
+<!-----------------------------Top content starts---------------------------------------------->
+    <div id="pos_top" style="width: 0px; height: 0px; margin: 0px;"></div>
+    <!------------------------------This is the Top Bar--------------------------------------------->
+    <div class="top_bar">
+        <img class="logo" src="images/logo.jpg" onclick="urlf('index.php');">
+        <div class="heading">Enlighten Career Institute</div>
+        <a href="#pos_top">
+            <div class="menu_icon" onclick="showMenuModal();">
+                <div class="menu_bar"></div>
+                <div class="menu_bar"></div>
+                <div class="menu_bar"></div>
+            </div>
+        </a>
+
+        <!-------------------------------------Navigation Bar in Desktop Mode---------------------------------------->
+        <div class="top_nav_bar">
+            <div class="top_nav" onclick="urlf('index.php');">Home</div>
+            <div class="top_nav" onclick="urlf('x_aboutus.php');">About Us</div>
+            <div class="top_nav" onmouseover="ddd(this);" onmouseout="eee(this);">Courses
+                <div class="top_nav_blank"></div>
+                <div class="top_nav_sub" onclick="urlf('x_phy.php');">Physics</div>
+                <div class="top_nav_sub" onclick="urlf('x_chem.php');">Chemistry</div>
+                <div class="top_nav_sub" onclick="urlf('x_maths.php');">Mathematics</div>
+                <div class="top_nav_sub" onclick="urlf('x_stats.php');">Statistics</div>
+                <div class="top_nav_sub" onclick="urlf('x_biot.php');">Biotechnology</div>
+            </div>
+
+            <div class="top_nav" onmouseover="ddd(this);" onmouseout="eee(this);">JAM
+                <div class="top_nav_blank"></div>
+                <div class="top_nav_sub" onclick="urlf('x_jam.php');">Why JAM?</div>
+                <div class="top_nav_sub" onclick="urlf('x_jam.php#benefits_of_jam');">Benefits of JAM</div>
+                <div class="top_nav_sub" onclick="urlf('x_jam.php#jam_patterns');">Patterns</div>
+                <div class="top_nav_sub" onclick="urlf('x_jam.php#jam_syllabus');">Syllabus</div>
+            </div>
+            <div class="top_nav" onclick="urlf('results.php');">Our Results&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="top_nav" onmouseover="ddd(this);" onmouseout="eee(this);">Downloads
+                <div class="top_nav_blank"></div>
+                <div class="top_nav_sub" onclick="urlf('x_syll.php');">Syllabus</div>
+                <div class="top_nav_sub" onclick="urlf('x_oldque.php');">Old Question Paper</div>
+                <div class="top_nav_sub" onclick="urlf('x_freque.php');">Free Question Paper</div>
+            </div>
+            <div class="top_nav" onclick="urlf('x_contacts.php');">Contacts</div>
+            <div class="top_nav" onclick="urlf('temp_reg.php?web_address=already_reg.php');">Register</div>
+        </div>
+    </div>
+    <div class="blank_top_bar"></div>
+
+    <!------------------------------This is the first loading screen(currently hidden)-------------------------------------->
+    <div class="first_screen">
+        <div class="tagline">Your success our dream</div>
+    </div>
+
+
+    <!------------------------------------------This is the Quick Links------------------------------------------>
+    <div class="quick_links">
+        <div class="quick_links_menu" onclick="expandQuickLinks();">&#8593; Quick Links</div>
+        <div class="link_list">
+            <div class="links" onclick="urlf('x_syll.php');">Syllabus</div>
+            <div class="links" onclick="urlf('x_studmat.php');">Study Material</div>
+            <div class="links" onclick="urlf('x_demvid.php');">Demo Video</div>
+            <div class="links" onclick="urlf('x_facul.php');">Faculty</div>
+            <div class="links" onclick="urlf('x_moctes.php');">Mock Tests</div>
+            <div class="links" onclick="urlf('x_resul.php');">Results</div>
+            <div class="links" onclick="urlf('x_downl.php');">Downloads</div>
+            <div class="links" onclick="urlf('x_feedb.php');">Feedback</div>
+            <div class="links" onclick="urlf('x_faq.php');">FAQ</div>
+            <div class="links" onclick="urlf('x_addrs.php');">Address</div>
+            <div class="links" onclick="urlf('x_contacts.php');">Contacts</div>
+            <div class="links" onclick="urlf('x_help.php');">Help</div>
+        </div>
+    </div>
+
+    <!-------------------------------Navigation or menubar in portrait mode------------------------------------------>
+    <div class="menu_modal">
+        <div style="height: 2vw;"></div>
+        <div class="menu_items" onclick="urlf('index.php');">Home</div>
+        <div class="menu_items" onclick="urlf('x_aboutus.php');">About Us</div>
+        <div class="menu_items" onclick="show_sub_menu(this);">Courses
+            <div class="sub_menu_items" onclick="urlf('x_phy.php');">Physics</div>
+            <div class="sub_menu_items" onclick="urlf('x_chem.php');">Chemistry</div>
+            <div class="sub_menu_items" onclick="urlf('x_maths.php');">Mathematics</div>
+            <div class="sub_menu_items" onclick="urlf('x_stats.php');">Statistics</div>
+            <div class="sub_menu_items" onclick="urlf('x_biot.php');">Biotechnology</div>
+        </div>
+
+        <div class="menu_items" onclick="show_sub_menu(this);">JAM
+            <div class="sub_menu_items" onclick="urlf('x_jam.php');">Why JAM?</div>
+            <div class="sub_menu_items" onclick="urlf('x_jam.php#benefits_of_jam');">Benefits of JAM</div>
+            <div class="sub_menu_items" onclick="urlf('x_jam.php#jam_patterns');">Patterns</div>
+            <div class="sub_menu_items" onclick="urlf('x_jam.php#jam_syllabus');">Syllabus</div>
+        </div>
+        <div class="menu_items" onclick="urlf('results.php');">Our Results</div>
+        <div class="menu_items" onclick="show_sub_menu(this);">Downloads
+            <div class="sub_menu_items" onclick="urlf('x_syll.php');">Syllabus</div>
+            <div class="sub_menu_items" onclick="urlf('x_oldque.php');">Old Question Paper</div>
+            <div class="sub_menu_items" onclick="urlf('x_freque.php');">Free Question Paper</div>
+        </div>
+        <div class="menu_items" onclick="urlf('x_contacts.php');">Contacts</div>
+    </div>
+
+    <div class="login_icon" onclick="urlf('temp_reg.php?web_address=already_reg.php');">Register</div>
+
